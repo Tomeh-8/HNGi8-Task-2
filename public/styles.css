@@ -223,6 +223,10 @@ section .title::after{
     background: #111;
     content: "";
 }
+.services .serv-content{
+    display: flex;
+    justify-content: space-evenly;
+}
 .services .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
@@ -235,6 +239,11 @@ section .title::after{
 .services .serv-content .card:hover{
     background: purple;
 }
+
+.services .serv-content .card:hover a{
+    color: rgb(44, 5, 5);
+}
+
 .services .serv-content .card .box{
     transition: all 0.3s ease;
 }
@@ -315,19 +324,19 @@ section .title::after{
     background:purple;
 }
 .skills-content .right .html::before{
-    width: 90%;
+    width: 95%;
 }
 .skills-content .right .css::before{
     width: 80%;
 }
 .skills-content .right .js::before{
-    width: 70%;
+    width: 80%;
 }
 .skills-content .right .php::before{
-    width: 70%;
+    width: 85%;
 }
 .skills-content .right .mysql::before{
-    width: 80%;
+    width: 90%;
 }
 
 /* teams section styling */
